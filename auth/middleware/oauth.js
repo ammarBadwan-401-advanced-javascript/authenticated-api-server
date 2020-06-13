@@ -21,6 +21,7 @@ const API_SERVER = process.env.API_SERVER;
 module.exports = async (req,res,next) =>{
   try{
     let code = req.query.code;
+    console.log(code);
     let remoteToken = await getToken(code);
     let remoteUser = await getRemoteUserInfo(remoteToken);
     let [user,token] = await getUser(remoteUser);
