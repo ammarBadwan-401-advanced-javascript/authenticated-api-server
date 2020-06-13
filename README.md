@@ -36,16 +36,16 @@
 * `node index.js` --> To start the server using express
 
 ### First you need to signup an account using 
-* For **POST**: `localhost:PORT/signup` to sign a new account , `localhost:PORT/signin`, to sign into an account and get bearer token.
-* For **GET**: `localhost:PORT/users` loads all users.
-* `http://localhost:3000/` use login by auth with github.
+* For **POST**: `https://ammar-lab15.herokuapp.com/signup` to sign a new account , `https://ammar-lab15.herokuapp.com/signin`, to sign into an account and get bearer token.
+* For **GET**: `https://ammar-lab15.herokuapp.com/users` loads all users.
+* `https://ammar-lab15.herokuapp.com/` use login by auth with github.
 
 ### For the routes, you need a bearer token with the right previleges:
 
-* For **GET**: `localhost:PORT/products`, `localhost:PORT/products/:id` , `localhost:PORT/categories`, `localhost:PORT/categories/:id`, just need any account to see.
-* For **POST**: `localhost:PORT/products` , `localhost:PORT/categories`, needs a user with create ability.
-* For **PUT**:  `localhost:PORT/products/:id` , `localhost:PORT/categories/:id`, needs a user with update ability.
-* For **DELETE**:  `localhost:PORT/products/:id` ,`localhost:PORT/categories/:id`, needs a user with delete ability.
+* For **GET**: `https://ammar-lab15.herokuapp.com/products`, `https://ammar-lab15.herokuapp.com/products/:id` , `https://ammar-lab15.herokuapp.com/categories`, `https://ammar-lab15.herokuapp.com/categories/:id`, just need any account to see.
+* For **POST**: `https://ammar-lab15.herokuapp.com/products` , `https://ammar-lab15.herokuapp.com/categories`, needs a user with create ability.
+* For **PUT**:  `https://ammar-lab15.herokuapp.com/products/:id` , `https://ammar-lab15.herokuapp.com/categories/:id`, needs a user with update ability.
+* For **DELETE**:  `https://ammar-lab15.herokuapp.com/products/:id` ,`https://ammar-lab15.herokuapp.com/categories/:id`, needs a user with delete ability.
 
 ### Tests
 
