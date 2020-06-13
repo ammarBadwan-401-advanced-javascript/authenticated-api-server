@@ -7,7 +7,7 @@
 ### Links and Resources
 
 - [Swagger](https://app.swaggerhub.com/apis/ammarbadwan/Api-Server-ammar/1)
-- [Pull Request](https://github.com/ammarBadwan-401-advanced-javascript/authenticated-api-server/pull/1)
+- [Pull Request](https://github.com/ammarBadwan-401-advanced-javascript/authenticated-api-server/pull/4)
 - [GitHub Actions CI](https://github.com/ammarBadwan-401-advanced-javascript/authenticated-api-server/actions)
 
 ### Modules
@@ -51,3 +51,7 @@
 
 * Lint test: `npm run lint`.
 * Unit test: `npm test`.
+
+### UML 
+
+![Auth API](./assets/auth-api-server.jpg)
