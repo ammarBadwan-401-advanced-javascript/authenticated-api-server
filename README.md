@@ -51,3 +51,7 @@
 
 * Lint test: `npm run lint`.
 * Unit test: `npm test`.
+
+### UML 
+
+![Auth API](./assets/auth-api-server.jpg)
