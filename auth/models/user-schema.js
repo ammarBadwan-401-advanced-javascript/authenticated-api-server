@@ -3,8 +3,8 @@
 const bcrypt =  require('bcrypt');
 const jwt = require('jsonwebtoken');
 const mongoose = require('mongoose');
-const TOKEN_TIMEOUT = process.env.TOKEN_TIMEOUT;
-const SECRET = process.env.SECRET;
+const TOKEN_TIMEOUT = process.env.TOKEN_TIMEOUT || '1d';
+const SECRET = process.env.SECRET || 'aVeryHardPass';
 
 const users = mongoose.Schema({
   username: { type : String , unique : true, required : true ,index: true},
